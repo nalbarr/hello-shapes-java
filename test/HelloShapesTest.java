@@ -31,7 +31,7 @@ public class HelloShapesTest {
 	public void testSquare() {
 		Double expected = 4.0;
 		Square shape = new Square("square1", 2.0);
-		Double size = shape.getSize();
+		Double size = shape.getArea();
 		assertEquals(size, expected);
 	}
 
@@ -39,7 +39,7 @@ public class HelloShapesTest {
 	public void testTriangle() {
 		Double expected = 2.0;
 		Triangle shape = new Triangle("triangle1", 2.0, 2.0);
-		Double size = shape.getSize();
+		Double size = shape.getArea();
 		assertEquals(size, expected);
 	}
 

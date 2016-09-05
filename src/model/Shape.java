@@ -12,7 +12,7 @@ public abstract class Shape {
 		return _name;
 	}
 	
-	public Double getSize() {
+	public Double getArea() {
 		return _size;
 	}
 }

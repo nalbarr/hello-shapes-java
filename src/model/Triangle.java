@@ -10,7 +10,7 @@ public class Triangle extends Shape {
 	  _height = height;
   }
   
-  public Double getSize() {
+  public Double getArea() {
 	  return 0.5 * _base * _height;
   }
 }
